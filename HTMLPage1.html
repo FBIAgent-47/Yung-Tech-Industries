@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Tevin Tee Shezi</title>
+        <script>
+            function Done() {
+                document.location.href="Web.html"
+            }
+        </script>
+</head>
+<body>
+<h1>Sign Up</h1><br />
+    <div id="form">
+        <form>
+            <label>First Name </label><br />
+                <input type="text" name="First Name" autofocus required /><br />
+            <label>Middle Name </label><br />
+                <input type="text" name="Middle Name" autofocus /><br />
+            <label>Last Name </label><br>
+                <input type="text" name="Last Name" autofocus /><br />
+            <label> Age </label><br />
+               <select>
+                    <option> None </option>
+                    <option>10 - 17 </option>
+                    <option> 18 - 25 </option>
+                    <option> 26 - 39 </option>
+                    <option> 40 and above </option>
+                </select> <br />
+            <label> Gender </label><br>
+                <input type="radio" name="Female-Male" /> Female
+            </label>
+            <label>
+                <input type="radio" name="Female-Male" /> Male
+            </label><br />
+            <label> Phone Number </label><br>
+                <input type="telephone number" name="number" autofocus required /><br />
+            <label> Email address </label><br />
+                <input type="email" name="email" autofocus required /><br /><br />
+            <button id="btn" onClick= "Done()"> Done </button>
+        </form>
+    </div>
+</body>
+</html>
